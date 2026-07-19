@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>THÔNG TIN CÁ NHÂN</h1>
+        <nav>
+            <a href="#gioithieu">Giới thiệu</a> | 
+            <a href="#sothich">Sở thích</a> |
+            <a href="#kynang">Kỹ năng</a> | 
+            <a href="#thoikhoabieu">Thời khóa biểu</a>|
+            <a href="#lienhe">Liên hệ</a>
+        </nav>
+    </header>
+
+    <hr/>
+
+    <section>
+        <h2>Thông tin cá nhân</h2>
+        <img src="anh1.jpg" width="200" height="200" alt="image"/>
+        <p>Họ và tên: Nguyễn Như Trọng</p>
+        <p>Tuổi: 20</p>
+        <p>Trường: Đại học Công nghiệp Hà Nội</p>
+        <p>Ngành học: Mạng máy tính và truyền thông dữ liệu</p>
+        <p>Lớp: 2024DHTTMT01</p>
+        <p>Email: nguyennhutrong2k6@gmail.com</p>
+        <p>Số điện thoại: 0362356126</p>
+    </section>
+
+    <hr/>
+
+    <section id="gioithieu">
+        <h2>Giới thiệu bản thân</h2>
+        <p>Xin chào! Mình là Nguyễn Như Trọng, hiện đang là sinh viên ngành Mạng máy tính và truyền thông dữ liệu</p>
+        <p>Mình yêu thích lập trình web và mong muốn trở thành Front-end Developer trong tương lai</p>
+    </section>
+    
+    <hr/>
+
+    <section id="sothich">
+        <h2>Sở thích</h2>
+        <ul>
+            <li>Đọc truyện</li>
+            <li>Lập trình</li>
+            <li>Đá bóng</li>
+            <li>Nghe nhạc</li>
+            <li>Ngủ</li>
+        </ul>
+    </section>
+
+    <hr/>
+
+    <section id="kynang">
+        <h2>Kỹ năng</h2>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScrip</li>
+            <li>Git</li>
+            <li>C++</li>
+        </ol>
+    </section>
+
+    <hr/>
+
+    <section id="thoikhoabieu">
+        <h2>Thời khóa biểu</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Thứ</th>
+                    <th>Môn học</th>
+                    <th>Phòng học</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td rowspan="2">Thứ 2</td>
+                    <td>HTML</td>
+                    <td>A1-101</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>A1-102</td>
+                </tr>
+
+                <tr>
+                    <td>Thứ 3</td>
+                    <td>JavaScript</td>
+                    <td>A1-103</td>
+                </tr>
+
+                <tr>
+                    <td>Thứ 4</td>
+                    <td>CSDL</td>
+                    <td>A1-104</td>
+                </tr>
+
+                <tr>
+                    <td>Thứ 5</td>
+                    <td>ReactJS</td>
+                    <td>A1-105</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th colspan="3">Tổng cộng 5 buổi học</th>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <hr/>
+
+    <section id="lienhe">
+        <h2>Form liên hệ</h2>
+        <form>
+            <label for="hoten">Họ tên</label><br />
+            <input type="text" id="hoten"/><br /><br />
+
+            <label for="email">Email</label><br />
+            <input type="email" id="email"/><br /><br />
+
+            <label for="password">Mật khẩu</label><br />
+            <input type="password" id="pass"/><br /><br />
+            
+            <p>Giới tính</p>
+            
+            <input type="radio" id="nam" name="gender"/>
+            <label for="nam">Nam</label>
+
+            <input type="radio" id="nu" name="gender"/>
+            <label for="nu">Nữ</label>
+
+            <p>Sở thích</p>
+
+            <input type="checkbox" id="code"/>
+            <label for="code">Lập trình</label>
+
+            <input type="checkbox" id="music"/>
+            <label for="music">Nghe nhạc</label>
+
+            <input type="checkbox" id="sport"/>
+            <label for="sport">Thể thao</label>
+
+            <br/><br/>
+
+            <label for="nganh">Ngành học</label><br/>
+            <select name="nganh" id="nganh">
+                <option value="ktpm">Kỹ thuật phần mềm</option>
+                <option value="khmt">Khoa học máy tính</option>
+                <option value="httt">Hệ thống thông tin</option>
+            </select>
+
+            <br/><br/>
+            
+            <label for="about">Giới thiệu</label><br/>
+            <textarea id="about" rows="5" cols="40"></textarea>
+
+            <br/><br/>
+
+            <button type="button">Gửi</button>
+        </form>
+    </section>
+    <hr/>
+
+    <aside>
+        <h2>Liên hệ</h2>
+        <p>
+            <a href="https://www.facebook.com/nguyen.nhu.trong.150700/" target="_blank">Facebook</a>
+        </p>
+        
+        <p>
+            <a href="https://github.com/nguyennhutrong2k6-star/HIT_WEB_PUBLIC.git" target="_blank">Github</a>
+        </p>
+
+        <p>
+            <a href="mailto:nguyennhutrong2k6@gmail.com">Gmail</a>
+        </p>
+    </aside>
+
+    <hr/>
+
+    <footer>
+        <p>&copy; 2026 Nguyễn Như Trọng.</p>
+    </footer>
+</body>
+</html>
